@@ -1,0 +1,117 @@
+[
+  {
+    "Id": 1,
+    "ProductName": "Most Picked",
+    "Price": "$50 Per Night",
+    "Discount": "5%",
+    "IsMostPicked": true,
+    "Images": [
+      {
+        "Id": 1,
+        "ProductId": 1,
+        "imageUrl": "pic.png",
+        "IsMain": true
+      },
+      {
+        "Id": 2,
+        "ProductId": 1,
+        "imageUrl": "pic.png",
+        "IsMain": false
+      },
+      {
+        "Id": 3,
+        "ProductId": 1,
+        "imageUrl": "pic.png",
+        "IsMain": false
+      },
+      {
+        "Id": 4,
+        "ProductId": 1,
+        "imageUrl": "pic.png",
+        "IsMain": false
+      },
+      {
+        "Id": 5,
+        "ProductId": 1,
+        "imageUrl": "pic.png",
+        "IsMain": false
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Houses with beauty backyard",
+    "Price": "$54 Per Night",
+    "Discount": "5%",
+    "Images": [
+      {
+        "Id": 1,
+        "imageUrl": "Rect1.png" 
+      },
+      {
+        "Id": 2,
+        "imageUrl": "Rect2.png"
+      },
+      {
+        "Id": 3,
+        "imageUrl": "Rect3.png"
+      },
+      {
+        "Id": 4,
+        "imageUrl": "Rect4.png"
+      }
+      
+    ]
+
+  },
+  {
+    "Id": 3,
+    "Name": "Hotels with large living room",
+    "Images": [
+      {
+        "Id": 1,
+        "imageUrl": "Rect5.png"
+      },
+      {
+        "Id": 2,
+        "imageUrl": "Rect6.png"
+      },
+      {
+        "Id": 3,
+        "imageUrl": "Rect7.png"
+      },
+      {
+        "Id": 4,
+        "imageUrl": "Rect8.png"
+      }
+      
+    ]
+
+  },
+  {
+    "Id": 4,
+    "Name": "Apartments with kitchen set",
+    "Images": [
+      {
+        "Id": 1,
+        "imageUrl": "Rect9.png"
+      },
+      {
+        "Id": 2,
+        "imageUrl": "Rect10.png"
+      },
+      {
+        "Id": 3,
+        "imageUrl": "Rect11.png"
+      },
+      {
+        "Id": 4,
+        "imageUrl": "Rect12.png"
+      },
+      {
+        "Id": 5,
+        "imageUrl": "Rect13.png"
+      }
+    ]
+  }
+]

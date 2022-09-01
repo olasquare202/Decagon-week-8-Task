@@ -1,0 +1,10 @@
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.deps.json
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.dll
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\bin\Debug\netcoreapp3.1\Hotel.Domain.pdb
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.AssemblyInfo.cs
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.dll
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Domain\obj\Debug\netcoreapp3.1\Hotel.Domain.pdb

@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+@*//This will be done in db
+//We want to populate our products i.e Houses in the hotel site e.g Most picked
+//Step 1: create an arrays of products
+[
+{//we don't write 1,2,3 serially for security reason, but we create Random number in program.cs and use it here.
+  "ProductId":....
+  "ProductName": "bags",
+  "Price": 1500.00,
+  "Discount": 20,
+  "IsPopular": true
+},
+{
+"ProductId":....
+  "ProductName": "bags",
+  "Price": 1500.00,
+  "Discount": 20,
+  "IsPopular": true
+  //d image will be array of objects like
+  "images": [
+  {
+      "Id": "gggg",
+      "imageUrl": "folder/file or online"
+  }]
+}
+]
+
+*@

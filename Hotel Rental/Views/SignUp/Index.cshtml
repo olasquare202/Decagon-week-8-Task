@@ -1,0 +1,33 @@
+﻿@using Hotel_Rental.Models
+@model User
+@{
+    ViewBag.Title = "Registration Page";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+ 
+ 
+<section class="section-log-in">
+    <div class="container">
+  
+      <div class="choices-container" id="choices-container">
+       
+  
+        <div class="forms-container">
+          <form class="form form-sign-up" method="post" asp-action="index">
+              <div asp-validation-summary="ModelOnly" style="color: red;"></div>
+            <h3 class="text-form">Sign Up</h3>
+            <input asp-for="FullName" type="text" placeholder="Full Name">
+            <span asp-validation-for="FullName" style="color: red"></span>
+            <input asp-for="Email" type="email" placeholder="Email">
+            <span asp-validation-for="Email" style="color: red" ></span>
+            <input asp-for="Password" type="password" placeholder="Password">
+            <span asp-validation-for="Password" style="color: red"></span>
+            <input class="btn btn-sign-up" type="submit" value="SignUp">
+            
+          </form>
+        </div>
+      </div>
+  
+    </div>
+  </section>

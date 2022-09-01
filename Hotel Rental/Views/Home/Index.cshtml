@@ -1,0 +1,461 @@
+﻿@model UserProductVM
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+
+
+    <div id="container">
+    <div class="row">
+      
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+         <div class="icon d-block fas fa-paper-plane"></div>
+         
+         <h3 class="display-3--title mt-3">Forget Busy Work,<br />
+          Start Next Vacation</h3>
+          @*<h5 class="mo">Most Picked</h5>*@
+         <p class="lh-lg">
+          We provide what you need to enjoy your <br />
+          holiday with family. Time to make another<br /> 
+          memorable moments.
+         </p>
+        <a class="round" href="#"> Show Me Now<span class="to-right"></span> </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+            <img src="/images/image 3.png" alt="marketing illustration" class="img"> 
+            
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+
+   @*<section class="second-sections">
+    <h3 class="most-picked">Most Picked</h3>
+      <div class="d-flex">
+           @foreach(var hotel in Model)
+            {
+                @if(hotel.Catergory == "Most Pick")
+                {  
+                    <div class="">
+                     <a >  <img src="@hotel.Image[1]" alt="" class="section-2-img margin-1 second--flex__left "></a>
+                    <p class="__@hotel.HotelId  pink"> $@hotel.Price per night</p>
+                     <p class=" bottom-left _@hotel.HotelId">@hotel.Name <br /> <span class="bottom-left-b ">@hotel.Location</span></p>
+                </div>
+                }
+                }
+                  <div class="Images__grid">
+            @foreach(var hotel in Model)
+            {
+                @if (hotel.Catergory == "Most Picked")
+                {
+                    <div class="Images__grid">
+                         <a ><img src="@hotel.Image[0]" alt="" class="section-2-img margin-1 second--flex__left "></a>
+            <p class="__@hotel.HotelId pink"> $@hotel.Price per night</p>
+             <p class="bottom-left _@hotel.HotelId" id="">@hotel.Name <br /> <span class="bottom-left-b ">@hotel.Location</span></p>
+                </div>
+                }
+            }
+            </div>
+         </div>
+</section>*@
+
+
+   
+        <h1 class="picked">@Model.Categories[0].Name</h1>
+
+
+
+     @* display the partent to be flex then after display child-2 to be grid*@
+        <section class="section1">
+ <div class="parent">
+     <div class="child-1">
+            @for(int i = 0; i < Model.MostPickerProducts.Count; i++)
+            {
+                if(i == 0)
+                {
+                      <div class="portfolio-box shadow">
+                          <div> 
+                        <img src=@Model.MostPickerProducts[i].ImageUrl alt="portfolio 1 image" class ="img-fluid">
+                        </div>
+                        <div class="portfolio-info">
+                          <div class="caption">
+                            <h4 class="fams">@Model.MostPickerProducts[0].ProductName </h4>
+                            <p class="w">@Model.MostPickerProducts[0].Location</p>
+                            <button type="button" class="rounded">$50 per night</button>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    break;
+                }
+            }
+         </div>
+        <div class="child-2">
+
+
+            @for(int i = 0; i < Model.MostPickerProducts.Count; i++)
+            {
+                if(i != 0)
+                {
+                      
+                     <div class="col-lg-4 col-md-6">
+                      <div class="portfolio-box shadow">
+                        <img src=@Model.MostPickerProducts[i].ImageUrl alt="portfolio 2 image" class="food">
+                        <div class="portfolio-info">
+                          <div class="caption">
+                            <h4></h4>
+                            <p></p>
+                            <button type="button" class="but">$22 per night  </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                }
+            }
+
+        
+              @*<div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Image folder/pic (3).png" alt="portfolio 1 image" class="port">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+                <button type="button" class="bu">$62 per night
+          
+        </button>
+              </div>
+            </div>
+          </div>
+        </div>
+              <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Image folder/pic (2).png" alt="portfolio 2 image" class="p1">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+                <button type="button" class="b1">$856 per night
+          
+        </button>
+              </div>
+            </div>
+          </div>
+        </div>
+              <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Image folder/pic (4).png" alt="portfolio 1 image" class="you">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+                <button type="button" class="b2">$72 per night
+          
+        </button>
+              </div>
+            </div>
+          </div>
+        </div>*@
+
+        </div>
+        
+        </div>
+        </section>
+       
+
+
+
+        <div class="">
+        
+           <h1 class="beauty">Houses with beauty backyard</h1>
+          @* display parent div flex and justify the parent div content to be space between*@
+   
+           <div class="parent-div">
+                 <div>
+                <img src="images/Image folder/Rect1.png" alt="portfolio 2 image" class="r1">
+                            <div class="portfolio-info">
+                              <div class="caption">
+                                <h4></h4>
+                                <p></p>
+                                <button type="button" class="b3">Popular Choice
+          
+                        </button>
+                     </div>
+             </div>
+              </div>
+                 <div>
+                 <div class="">
+                      <div class="portfolio-box shadow">
+                        <img src="images/Image folder/Rect2.png" alt="portfolio 1 image" class="r2">
+                            <div class="portfolio-info">
+                                  <div class="caption">
+                                    <p></p>
+                                   </div>
+                            </div>
+                        </div>
+                   </div>
+              </div>
+            
+                 <div>
+                  <div class="col-lg-4 col-md-6">
+                      <div class="portfolio-box shadow">
+                                <img src="images/Image folder/Rect3.png" alt="portfolio 2 image" class="r3">
+                                <div class="portfolio-info">
+                                          <div class="caption">
+                                            <h4></h4>
+                                            <p></p>
+                                          </div>
+                                </div>
+                      </div>
+                </div>
+             </div>
+                 <div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="portfolio-box shadow">
+                        <img src="images/Image folder/Rect4.png" alt="portfolio 1 image" class="r4">
+                            <div class="portfolio-info">
+                                      <div class="caption">
+                                        <h4></h4>
+                                        <p></p>
+                                      </div>
+                            </div>
+                  </div>
+                  </div>
+             
+        </div>
+           </div>
+            
+          
+       
+        </div>
+
+
+
+
+
+
+
+
+
+       
+        <div class="col-lg-4 col-md-6">
+          <div><h1 class="room">Hotels with large living room</h1></div>
+
+
+
+                 @* display parent div1 flex and justify the parent div content to be space between*@
+
+             <div class="parent-div1 ">
+                     <div class="d-flex justify-content-between">
+                 
+                 <img src="images/Image folder/Rect5.png" alt="portfolio 1 image" class="r5">
+                 
+                 
+                 @*@foreach(var hotel in Model)
+                {
+                    if (hotel.Catergory == "Hotels with large living room")
+                    {
+                      <div>
+                      <div class="portfolio-box shadow">
+                         <img src="@hotel.Image[2]" alt="" class="">
+                        <div class="portfolio-info">
+                              <div class="caption">
+                                <h4>@hotel.Name</h4>
+                                <p>@hotel.Location</p>
+                              </div>
+                        </div>
+                         </div>
+                 </div>  
+                    }
+                }
+*@
+                 
+                <div>
+
+                         <div class="col-lg-4 col-md-6">
+                      <div class="portfolio-box shadow">
+                                <img src="images/Image folder/Rect6.png" alt="portfolio 1 image" class="r6">
+                                <div class="portfolio-info">
+                                      <div class="caption">
+                                        <h4></h4>
+                                        <p></p>
+                                      </div>
+                                </div>
+                      </div>
+                   </div>
+
+        <div>
+
+
+            <div class="col-lg-4 col-md-6">
+                  <div class="portfolio-box shadow">
+                         <img src="images/Image folder/Rect7.png" alt="portfolio 2 image" class="r7">
+                        <div class="portfolio-info">
+                                  <div class="caption">
+                                    <h4></h4>
+                                    <p></p>
+                                  </div>
+                        </div>
+                  </div>
+            </div>
+
+        </div>
+            </div>
+             
+         
+        </div>
+            
+                     <div  >
+
+            <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/Image folder/Rect8.png" alt="portfolio 1 image" class="r8">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        
+       
+                     <div class="">
+          
+             <div class="d-flex justify-content-between">
+                 <div>
+             <img src="images/Image folder/Rect9.png" alt="portfolio 2 image" class="r9">
+                        <div class="portfolio-info">
+                          <div class="caption">
+                            <h4></h4>
+                            <p></p>
+                          </div>
+                        </div>
+                 </div>
+             <div>
+
+             </div>
+          </div>
+
+        </div>
+
+                     <div class="col-lg-4 col-md-6">
+         
+            <img src="images/Image folder/Rect10.png" alt="portfolio 1 image" class="r10">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+             </div>
+         
+
+            
+        </div>
+        
+        <div>
+           
+            <div><h1 class="apart">Apartments with kitchen set</h1></div>
+
+                @* display parent div1 flex and justify the parent div content to be space between*@
+            <div class="parent-div3">
+
+                 <div>
+            <div class="col-lg-4 col-md-6">
+          
+            <img src="images/Image folder/Rect11.png" alt="portfolio 2 image" class="r11">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+
+             
+            </div>
+
+                 <div>
+             <div class="col-lg-4 col-md-6">
+         
+            <img src="images/Image folder/Rect12.png" alt="portfolio 1 image" class="r12">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+       </div>
+                 <div class="col-lg-4 col-md-6">
+       
+            <img src="images/Image folder/Rect13.png" alt="portfolio 2 image" class="r13">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>  
+
+                 <div class="portfolio-box shadow">
+            <img src="images/Image folder/Rect14.png" alt="portfolio 1 image" class="r14">
+            <div class="portfolio-info">
+ 
+                      
+        <div class="col-lg-4 col-md-6">
+        
+            <img src="images/Image folder/Happy Family.png" alt="family logo" class="fa">
+            <div class="ratings">
+            <i class="star">&#9734;&#9734;&#9734;&#9734;&#9734;</i>
+           <p class="text">What a great trip with my family and <br />
+                 I should try again next time soon ...</p>
+          </div>
+          <a class="read" href="#"> Read Their Story</a>
+          
+       
+              <div class="caption">
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+            </div>
+        </div>
+        
+       
+        
+          
+     
+        @*<div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/church2.jpg" alt="portfolio 2 image" title="portfolio 2 picture">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>dominion cathedral</h4>
+                <p>headquarter</p>
+              </div>
+            </div>
+          </div>
+        </div>*@
+        
+
+</body>
+
+    

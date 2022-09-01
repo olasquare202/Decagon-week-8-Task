@@ -1,0 +1,178 @@
+
+  {
+    "Id": 1,
+    "CategoryId": 1,
+    "ProductName": "Blue Origin Fams",
+    "Price": 50000,
+    "Discount": 47500,
+    "IsMostPicked": true,
+    "Image": "/images/Image-folder/pic.png",
+    "Location": "Jakarta Indonesia"
+  },
+  {
+    "Id": 2,
+    "CategoryId": 1,
+    "ProductName": "Ocean Land",
+    "Price": 60000,
+    "Discount": 57000,
+    "Images": "/images/Image-folder/Rect1.png",
+    "Location": "Bandung, Indonesia"
+  },
+  {
+    "Id": 3,
+    "CategoryId": 1,
+    "ProductName": "Stark House",
+    "Price": 100000,
+    "Discount": 92000,
+    "IsPopularChoice": false,
+    "Images": "/images/Image-folder/Rect5.png",
+    "Location": "Malang, Indonesia"
+  },
+  {
+    "Id": 4,
+    "CategoryId": 1,
+    "ProductName": "Vinna Vill",
+    "Price": 80000,
+    "Discount": 75000,
+    "Images": "/images/Image-folder/Rect10.png",
+    "Location": "Malang, Indonesia"
+  },
+  {
+    "Id": 5,
+    "CategoryId": 1,
+    "ProductName": "Bobox",
+    "Price": 70000,
+    "Discount": 67000,
+    "Images": "/images/Image-folder/pic2.png",
+    "Location": "Medan, Indonesia"
+  },
+  {
+    "Id": 6,
+    "CategoryId": 2,
+    "ProductName": "Tabby Town",
+    "Price": 54000,
+    "Discount": 48500,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect1.png",
+    "Location": "Gunung Batu, Indonesia"
+  },
+  {
+    "Id": 7,
+    "CategoryId": 2,
+    "ProductName": "Anggana",
+    "Price": 84000,
+    "Discount": 68500,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect2.png",
+    "Location": "Bogor, Indonesia"
+  },
+  {
+    "Id": 8,
+    "CategoryId": 2,
+    "ProductName": "Seattle Rain",
+    "Price": 47000,
+    "Discount": 30500,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect3.png",
+    "Location": "Jakarta, Indonesia"
+  },
+  {
+    "Id": 9,
+    "CategoryId": 2,
+    "ProductName": "Wodden Pit",
+    "Price": 65000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect5.png",
+    "Location": "Wonosobo, Indonesia"
+  },
+  {
+    "Id": 10,
+    "CategoryId": 3,
+    "ProductName": "Green Park",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect6.png",
+    "Location": "Tangerang, Indonesia"
+  },
+  {
+    "Id": 11,
+    "CategoryId": 3,
+    "ProductName": "Podo Wae",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect7.png",
+    "Location": "Madiun, Indonesia"
+  },
+  {
+    "Id": 13,
+    "CategoryId": 3,
+    "ProductName": "Silver Rain",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect8.png",
+    "Location": "Bandung, Indonesia"
+  },
+  {
+    "Id": 14,
+    "CategoryId": 3,
+    "ProductName": "Cashville",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect9.png",
+    "Location": "Kemang, Indonesia"
+  },
+  {
+    "Id": 15,
+    "CategoryId": 4,
+    "ProductName": "PS Wood",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect10.png",
+    "Location": "Depok, Indonesia"
+  },
+  {
+    "Id": 16,
+    "CategoryId": 4,
+    "ProductName": "One Five",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect11.png",
+    "Location": "Jakarta, Indonesia"
+  },
+  {
+    "Id": 17,
+    "CategoryId": 4,
+    "ProductName": "Minimal",
+    "Price": 75000,
+    "Discount": 57000,
+    //"IsMostPicked": true,
+    "Image": "/images/Image folder/Rect12.png",
+    "Location": "Bogor, Indonesia"
+  },
+  {
+  "Id": 18,
+  "CategoryId": 4,
+  "ProductName": "Stays Home",
+  "Price": 75000,
+  "Discount": 57000,
+  //"IsMostPicked": true,
+  "Image": "/images/Image folder/Rect13.png",
+  "Location": "Wonosobo, Indonesia"
+},
+{
+  "Id": 19,
+  "CategoryId": 4,
+  //"ProductName": "Stays Home",
+  "Price": 75000,
+  "Discount": 57000,
+  //"IsMostPicked": true,
+  "Image": "/images/Image folder/Rect14.png",
+  //"Location": "Wonosobo, Indonesia"
+}

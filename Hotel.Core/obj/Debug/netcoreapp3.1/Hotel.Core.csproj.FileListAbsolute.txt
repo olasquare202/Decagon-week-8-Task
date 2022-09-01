@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\bin\Debug\netcoreapp3.1\Hotel.Core.deps.json
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\bin\Debug\netcoreapp3.1\Hotel.Core.dll
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\bin\Debug\netcoreapp3.1\Hotel.Core.pdb
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\bin\Debug\netcoreapp3.1\Hotel.Domain.dll
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\bin\Debug\netcoreapp3.1\Hotel.Domain.pdb
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.AssemblyInfo.cs
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.csproj.CopyComplete
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.dll
+C:\Users\hp\source\repos\Hotel_Rental\Hotel.Core\obj\Debug\netcoreapp3.1\Hotel.Core.pdb

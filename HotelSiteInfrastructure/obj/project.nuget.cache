@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0pUpYkcJpOLv4tqMKEeT0QQfqv9+hrnLleUvHZ08rx5atMCknBis4ewQ7suVqYj/36fBam3RSHKC1S0tXtOGnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\Hotel Rental\\HotelSiteInfrastructure\\HotelSiteInfrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
